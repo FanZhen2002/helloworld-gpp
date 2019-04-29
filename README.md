@@ -24,4 +24,5 @@ Now you can run your compile greet app using following command:
 
 `
 $ ./greet
+Hello World!
 `
