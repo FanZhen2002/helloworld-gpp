@@ -2,6 +2,29 @@
 
 This sample is showing you how you can use g++ to compile and run your c++ application.
 
+## Envorinment Setup
+
+Make sure *g++* install run following command:
+
+```
+g++ --version
+zsh: command not found: g++
+```
+
+if you see *command not found: g++*, you need to install *gcc*. *g++* compiler is a part of gcc package.
+
+### Installing gcc
+
+  - MacOS
+    ```
+    $ brew install gcc
+    ```
+  - Linux
+    - Debian/Ubuntu
+      ```
+      apt install gcc
+      ```
+
 ## Building hello shared library (including hello.cpp and hello.h files)
 
 Using -c you can compile your shared library that typically it shouldn't be executable and having main method. Here is an example:
