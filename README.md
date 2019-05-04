@@ -11,7 +11,7 @@ g++ --version
 zsh: command not found: g++
 ```
 
-if you see *command not found: g++*, you need to install *gcc*. *g++* compiler is a part of gcc package.
+if you see *command not found: g++*, you need to install *g++*. *g++* compiler is a part of gcc package in some operating systems, but in some you need to install it separately. I prefer to keep both of them
 
 ### Installing gcc
 
@@ -22,7 +22,8 @@ if you see *command not found: g++*, you need to install *gcc*. *g++* compiler i
   - Linux
     - Debian/Ubuntu
       ```
-      apt install gcc
+      $ sudo apt install gcc
+      $ sudo apt install g++
       ```
 
 ## Building hello shared library (including hello.cpp and hello.h files)
