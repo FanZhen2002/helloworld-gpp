@@ -2,9 +2,9 @@
 
 This sample is showing you how you can use g++ to compile and run your c++ application.
 
-## Envorinment Setup
+## Environment Setup
 
-Make sure *g++* install run following command:
+Make sure *g++* installed by running following command:
 
 ```
 g++ --version
